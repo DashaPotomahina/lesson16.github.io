@@ -1,0 +1,103 @@
+body{
+    background-color: rgb(134, 134, 134);
+}
+.one{
+    position: absolute;
+    top: 120px;
+    left: 20px;
+}
+.two{
+    position: absolute;
+    top: 60px;
+    left: 510px;
+}
+.three{
+    position: absolute;
+    top: 360px;
+    left: 260px;
+}
+.four{
+    position: absolute;
+    top: 20px;
+    left: 1030px; 
+}
+.five{
+    position: absolute;
+    top: 320px;
+    left: 960px; 
+}
+.six{
+    position: absolute;
+    top: 520px;
+    left: -30px;
+}
+.seven{
+    position: absolute;
+    top: 510px;
+    left: 650px; 
+}
+ul{
+    list-style: none;
+}
+li{
+    text-align: center;
+    margin: 5px;
+    font-size: 25px;
+}
+i{
+    font-size: 40px;
+    color: white;
+    position: absolute;
+    top: 15px;
+    left: 10px;
+}
+h1{
+    font-size: 90px;
+}
+p{
+    position: relative;
+    top: -55px;
+}
+.container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+ul ul{
+    position: absolute;
+    top: 14px;
+    left: -30px;
+    display: none;
+}
+ul li:hover > ul{
+    display: block;
+}
+li li{
+    display: block;
+    width: 120px;
+    height: 25px;
+    background-color: white;
+    color: rgb(134, 134, 134);
+    position: relative;
+}
+ul ul ul li{
+    display: block;
+    position: relative;
+    left: 80px;  
+}
+ul ul li:hover > ul{
+    display: block;
+}
+.home {
+    position: relative;
+    top: -495px;
+    left: -695px;
+}
+ul ul ul{
+    position: relative;
+    top: -30px;
+    left: -5px;
+}
